@@ -1,0 +1,199 @@
+/* Container holding the image and the text */
+* {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+.container {
+    position: relative;
+    
+  }
+  
+  /* Bottom right text */
+  .text-block {
+   
+    position: absolute;
+    color: var(--Dark-01, #151414);
+    text-align:right;
+    bottom: 20px;
+    right: 20px;
+    top: 3px;
+    padding: 120px 230px 365px 845px;
+  }
+  .heading{
+    margin-top: 30px;
+  }
+  .paragraph{
+    margin-top: 25px;
+  }
+  .btn-primary{
+    margin-top: 22px;
+    border-radius: 5px;
+    background: #F15B22;
+    border: none;
+    padding: 21px 25px 21px 26px;
+    font-weight: 600;
+  }
+  /* main part  */
+  .banner{
+    /* margin: 0 0px 0 200px; */
+    display: flex;
+    align-items: center;
+    
+  }
+
+  .banner-heading{
+   margin-bottom: 24px;
+    /* margin-top: 369px; */
+  }
+  .main{
+    margin: 369px 200px 214px 134px;
+  }
+  .banner-paragraph{
+    margin-bottom: 16px;
+  }
+
+  ul li{
+    list-style: none;
+    
+  }
+ /* my-plan-section */
+ .my-plan{
+  /* margin-top: 130px; */
+  text-align: center;
+  margin: 130px 230px 130px 230px;
+ }
+ .my-plan-heading{
+ margin-bottom: 50px;
+ }
+ .my-plan-container{
+  display: flex;
+  gap: 80px;
+ }
+ .skills{
+ 
+ }
+ .plan-title{
+  margin-top: 25px;
+  font-weight: 700;
+ }
+ .plan-discription{
+  margin-top: 15px;
+ }
+ /* positive-section */
+ 
+ .positive{
+  margin: 130px 130px 130px 50px;
+ }
+/* Container holding the image and the text */
+.containerr {
+  
+  position: relative;
+  text-align: center;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  background: url(/images/gradient2.png) ;
+  height: auto;
+  width: auto;
+  background-repeat: no-repeat;
+}
+.awalys{
+  margin-top: 50px;
+}
+.image{
+  opacity: 50%;
+}
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  top: 60px;
+  left: 64px;
+  right: 130px;
+  /* right: 617px; */
+  color: #FFF;
+font-family: Work Sans;
+font-size: 30px;
+font-style: normal;
+font-weight: 100;
+line-height: normal;
+text-align: left;
+ 
+}
+.btn{
+  
+  margin-top: 70px;
+  color: orange;
+  background-color: aliceblue;
+  border-radius:5px;
+  border: none;
+  padding: 21px 25px 21px 26px;
+  font-weight: 600;
+  margin-right: 400px;
+}
+/* footer section  */
+.footer{
+  display: flex;
+  background: var(--Dark-01, #151414);
+  gap: 330px;
+}
+.footer-head{
+  color: #F8F8F8;
+font-family: Work Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 130px;
+margin-left: 230px;
+}
+.footer-paragraph{
+  color: #FFF;
+font-family: Work Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+margin-left: 230px;
+margin-top: 16px;
+}
+.footer-mail{
+  margin-top: 24px;
+  color: #FFF;
+  margin-left: 230px;
+}
+.footer-phone{
+  margin-top: 16px;
+  color: #FFF;
+  margin-left: 230px;
+  margin-bottom: 32px;
+}
+.footer-image{
+  margin-left:230px;
+  margin-bottom: 130px;
+  
+}
+.subscribe{
+  color: #FFF;
+font-family: Work Sans;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+margin-top: 130px;
+}
+.email{
+  margin-top: 32px;
+  background: var(--Dark-01, #151414);
+  padding:22px 158px 20px 21px;
+  border-radius: 8px;
+  color: var(--Dark-07, #F3F3F3);
+font-family: Work sans-serif;
+font-size: 18px;
+font-style: italic;
+font-weight: 400;
+line-height: normal;
+border: 1px solid;
+}
+.btn{
+  margin-top: 16px;
+}
